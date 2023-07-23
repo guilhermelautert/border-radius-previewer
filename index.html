@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Border Radius Previewer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="container">
+        <h1>Border Radius Previewer</h1>
+        <p>Digite o valor :</p>
+        <div class="inputs-labels">
+            <label for="border-radius-top">Canto superior esquerdo:</label>
+            <input type="text" name="border-radius-top" id="border-radius-top">
+            <label for="border-radius-right">Canto superior direito:</label>
+            <input type="text" name="border-radius-right" id="border-radius-right">
+            <label for="border-radius-bottom">Canto inferior direto:</label>
+            <input type="text" name="border-radius-bottom" id="border-radius-bottom">
+            <label for="border-radius-left">Canto inferior esquerdo:</label>
+            <input type="text" name="border-radius-left" id="border-radius-left">
+            <button id="alterarBtn">ALTERAR BORDAS</button>
+            <div id="alert"></div>
+            <textarea name="border-sizes" id="textArea" cols="30" rows="10"></textarea>
+            <button id="copy">COPIAR</button>
+        </div>
+    </section>
+    <script src="main.js"></script>
+</body>
+</html>
